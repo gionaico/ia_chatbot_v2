@@ -1,0 +1,22 @@
+{
+  "name": "mia_chatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node playwright.ts"
+  },
+  "author": "gionaico",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "papaparse": "^5.5.2",
+    "playwright": "1.50.1",
+    "selenium-webdriver": "4.28.1"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  }
+}

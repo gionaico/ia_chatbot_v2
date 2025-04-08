@@ -1,0 +1,3 @@
+./**/node_modules
+pruebas
+backend-chat/models/model_gpt_custom_v1/pytorch_model.bin

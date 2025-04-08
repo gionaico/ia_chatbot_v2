@@ -1,0 +1,9 @@
+{
+  "additional_special_tokens": [
+    "f\"<|{control_code}|>\""
+  ],
+  "bos_token": "<|startoftext|>",
+  "eos_token": "<|endoftext|>",
+  "pad_token": "<|pad|>",
+  "unk_token": "<|endoftext|>"
+}

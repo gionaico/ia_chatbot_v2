@@ -76,7 +76,7 @@ model.eval()
 
 async def responseFromModel(text):
   
-  for i in range(100):
+  for i in range(300):
     X_new_encoded = tokenizer.text_to_seq(text[-100:])
     y_pred = predict(model, X_new_encoded)
     y_pred = torch.argmax(y_pred, axis=1)[0].item()

@@ -141,7 +141,7 @@ const MessageArea = ({ onSendMessage, ModelsState, setModelsState }: any) => {
               </option>
             ))}
           </select>
-          {ModelsState?.find((data: any) => data.selected)?.length ? null : (
+          {ModelsState?.find((data: any) => data.selected) ? null : (
             <label
               htmlFor="options"
               className="pointer-events-none absolute left-7 top-2 text-xs text-gray-500 transition-all peer-focus:top-1 peer-focus:text-xs peer-focus:text-blue-500"
